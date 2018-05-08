@@ -36,7 +36,7 @@ A simple Ansible role to ensure prerequisite Python libraries are installed for 
   tasks:
     - name: Ensure Ansible Prerequisites are installed
       include_role:
-        name: "prerequisites"
+        name: "genie-prerequisites"
       vars:
         prq_pylibs:
           - "ansible-tower-cli"
