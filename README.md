@@ -1,6 +1,6 @@
-# genie-prerequisites
+# ansible_tower_genie_virtual_environments
 ## Description
-A simple Ansible role to ensure prerequisite Python libraries are installed for particular Ansible modules.  This role ensures EPEL is installed, which is a requirement to installing the python-pip package.  The python-pip packages enables the availability of a multitude of Python packages for installation.
+An Ansible Role to manage virtual environments in Ansible Tower.
 ## Variables
 |Variable Name|Default Value|Required|Description|
 |:---:|:---:|:---:|:---:|
@@ -11,7 +11,7 @@ A simple Ansible role to ensure prerequisite Python libraries are installed for 
 ---
 - hosts: all
   roles:
-    - role: prerequisites
+    - role: "ansible_tower_genie_virtual_environments"
       prq_pylibs:
         - "ansible-tower-cli"
         - "boto"
