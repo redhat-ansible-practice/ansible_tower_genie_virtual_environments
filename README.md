@@ -42,5 +42,8 @@ An Ansible Role to manage virtual environments in Ansible Tower.
           - "ansible-tower-cli"
           - "boto"
 ```
+## License
+[MIT](LICENSE)
+
 ## Author
-[Andrew J. Huffman](mailto:ahuffman@gmail.com)
+[Andrew J. Huffman](https://github.com/ahuffman)
